@@ -1,0 +1,87 @@
+.vertical-menu {
+    width: 200px;
+    /* Set a width if you like */
+    a {
+        background-color: white;
+        /* Grey background color */
+        color: black;
+        /* Black text color */
+        display: block;
+        /* Make the links appear below each other */
+        padding: 12px;
+        /* Add some padding */
+        text-decoration: none;
+        /* Remove underline from links */
+        width: 75%;
+    }
+
+    a:hover {
+        background-color: #ccc;
+        /* Dark grey background on mouse-over */
+    }
+
+    a.active {
+        background-color: #c2d6d6;
+        /* Add a green color to the "active/current" link */
+        color: black;
+    }
+}
+
+.manage-side-nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.management-area {
+    position: absolute;
+    top: 4rem;
+    left: 200px;
+    right: 0;
+}
+
+.flex-container {
+    margin: 10px 25px;
+}
+
+.flex-container2 {
+    padding: 20px;
+}
+
+.flex-container-small {
+    margin: 10px 25px;
+    background-color: white;
+}
+
+.menu-icon {
+    width: 24px !important;
+    height: 24px !important;
+    color: black;
+}
+
+.menu-link {
+    color: black;
+}
+
+.footer-smaller {
+    height: 50px;
+}
+
+.is-muted {
+    color: $grey-light !important;
+}
+
+.form-inline {
+    display: inline-block;
+}
+
+.white-div
+{
+  background-color: white;
+}

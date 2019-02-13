@@ -1,0 +1,31 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+//Font Awesome
+@import 'node_modules/font-awesome/scss/font-awesome';
+// Bulma
+@import 'node_modules/bulma/bulma';
+//Bulma Vue Modules
+@import 'node_modules/buefy/src/scss/buefy';
+// Custom SASS Pages
+@import "helpers";
+@import "components";
+
+body {
+	background-color: whitesmoke;
+}
+
+.role-div {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.gif-div {
+	background: url('https://media.giphy.com/media/26BRxLmNGpvn4MCGs/giphy.gif');
+}
+
+.gif-manage {
+	background: url('https://media.giphy.com/media/ZMcEiRIO608dq/giphy.gif') no-repeat center center fixed;
+	background-size: cover;
+}
